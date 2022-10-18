@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="string change">
+        <meta name="author" content="jamal aldeen khalil">
+        <meta name="keywrod" contant="string  change">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>string change</title>
+        <link rel="stylesheet" href="string.css">
+        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css.map">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main w-70  mb-5 mt-5 rounded container pt-5 pb-5 ">
+            <div class="cont w-70  p-2 ">
+                <span class="currentValue bg-white ms-5 me-4 p-2 " id="currentValue" contenteditable="true"></span>
+                <span class="arrow"></span>
+                <span class="toValue currentValue bg-white ms-5 me-4 p-2" id="toValue"  contenteditable="true"></span>
+            </div>
+            <button class="w-100 mt-4 mb-4 p-2  rounded h3 " id="convert" >convert</button>
+            <div class="stringParent bg-white  p-2">
+                <div class="icons text-right  h4">
+                    <a  type="button" id="copy" >
+                        <i class="fa-solid fa-copy"></i>
+                        <span class="no">copied</span>
+                    </a>
+                </div>
+                <div class="string ">
+                    <textarea class="text border-0" type="text" id="text" ></textarea>
+                </div>
+            </div>
+        </div>
+
+        <script src="./string.js"></script>
+    </body>
+</html>
